@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  `
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Fadli Aryadinata</title>
+    <link rel="icon" type="image/x-icon" href="image/garazsi-1.png">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content ="width=device-width, initial-scale=1"/>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
+</head>
+
+
+<body id="home">
+
+    <header class="fade-in">
+      
+          <nav class="navbar">
+                
+                          <div class="navbar-logo">
+                            <img src="image/garazsi.png"  alt="Logo" srcset="">
+                          </div>
+                          
+                          <ul class="navbar-menu" id="navbar-menu">
+                            <li><a class="smoothscroll" href="#home">Home</a></li>
+                            <li><a class="smoothscroll" href="#about">About</a></li>
+                            <li><a class="smoothscroll" href="#portofolio">MENU</a></li>
+                            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                          </ul>
+
+                          <div class="hamburger" onclick="toggleMenu(this)">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                
+           </nav>
+
+    </header>
+
+    <div class="gambar-awal">
+    <img src="image/garazsi.png" alt="Gambar 5">
+    </div>
+
+    <section id="about">
+
+        <div class="grid-container">
+
+              <div class="slider">
+
+                    <div class="slider-item">
+                      <img src="image/garazers4.JPG" alt="Gambar 1">
+                    </div>
+
+                    <div class="slider-item">
+                      <img src="image/garazers5.JPG" alt="Gambar 2">
+                    </div>
+                    
+                    <div class="slider-item">
+                      <img src="image/garazers3.JPG" alt="Gambar 3">
+                    </div>
+
+              </div>
+
+              <div class="grid-item">
+
+                    <h2 class="tentang-kami">TENTANG KAMI</h2>
+                    <h3 class="ini-p">Berdiri sejak tahun 2020 dengan tempat yang berlokasi di Setu Mangga Bolong Jakarta Selatan,
+                      Kopi Garazsi sudah menjadi tempat kumpul para anak muda daerah sekitar. Dengan mengusung konsep gaya Amerika 
+                      dan garasi rumahan, menjadikan tempat ini salah satu tempat yang menarik untuk berkumpul dengan teman-teman. Dengan biji kopi pilihan, membuat minuman kami
+                      sangat dinantikan oleh para pecinta kopi.</h3>
+                  
+              </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="activity-container"  id="portofolio">
+
+          <div class="saya-2">
+            
+                  <h1>MENU KAMI</h1>
+
+                  <a href="https://drive.google.com/file/d/113usuGqQniPKxkTGxxpQoNlzQNMdmmRB/view?usp=sharing">
+                  <img class="activity-photo" src="image/makanan2.png" alt="makanan" />
+                  </a>
+
+                  <a href="https://drive.google.com/file/d/1BzsbRj1953IfuzIwEZfM83RhoZ_o7oKt/view?usp=sharing">
+                  <img class="activity-photo" src="image/minuman.png" alt="minuman" />
+                  </a>
+
+          </div>
+
+    </section>
+
+  <section id="contact">
+          <div class="form-container">
+
+                  <form class="text-center">
+
+                          <div class="saya-2">
+                          <h1>CONTACT</h1>
+                          </div>
+                                    <div class="container">        
+
+                                            <div class="row">
+                                                <div class="col-25">
+                                                  <label for="text">Nama Lengkap</label>
+                                                </div>
+                                                <div class="col-75">
+                                                  <input id="name" type="text" placeholder="Lionel Messi" required>
+                                                </div>
+                                            </div> 
+
+                                            <div class="row">
+                                                <div class="col-25">
+                                                  <label for="date">Tanggal</label>
+                                                </div>
+                                                <div class="col-75">
+                                                  <input id="date" type="date" id="date" name="date" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-25">
+                                                  <label for="lname">Alamat Email</label>
+                                                </div>
+                                                <div class="col-75">
+                                                  <input id="email" type="text"  placeholder="udin@gmail.com" required>
+                                              </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-25">
+                                                  <label for="country">Darimana Kamu Tau Kita?</label>
+                                                </div>
+                                                <div class="col-75">
+                                                  <select name="country">
+                                                    <option value="Linkedln">TEMAN</option>
+                                                    <option value="Github">IKLAN</option>
+                                                    <option value="Instagram">Instagram</option>
+                                                    <option value="Facebook">Facebook</option>
+                                                  </select>
+                                                </div>         
+                                            </div>
+
+                                            <div class="row">
+                                              <div class="col-25">
+                                                <label for="subject">Message</label>
+                                              </div>
+                                              <div class="col-75">
+                                                <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:200px"></textarea>
+                                              </div>
+                                            </div>
+
+                                    <button class="button" type="submit" value="Submit">KIRIM</button>
+                              </div>
+                   </form>
+        </div>
+  </section>
+
+<footer>
+  <div class="footer-container">
+    <p>© 2020 KOPI GARAZSI. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
